@@ -1,10 +1,5 @@
 package guru.springframework.recipeapp.controllers;
 
-import guru.springframework.recipeapp.domain.Category;
-import guru.springframework.recipeapp.domain.UnitOfMeasure;
-import guru.springframework.recipeapp.repositories.CategoryRepository;
-import guru.springframework.recipeapp.repositories.RecipeRepository;
-import guru.springframework.recipeapp.repositories.UnitOfMeasureRepository;
 import guru.springframework.recipeapp.services.RecipeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
