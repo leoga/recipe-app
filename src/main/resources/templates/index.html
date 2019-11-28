@@ -5,23 +5,19 @@
     <title>Recipe App Index</title>
 </head>
 <body>
-<h1>Recipe index Page 5555 </h1>
+<h1>Recipe index Page</h1>
 
 <table class="table table-striped">
     <thead>
     <tr>
         <th style="width: 150px;">ID</th>
         <th style="width: 200px;">Description</th>
-        <th style="width: 200px;">Directions</th>
-        <th style="width: 120px">Url</th>
     </tr>
     </thead>
     <tbody>
     <tr th:each="recipe : ${recipes}">
         <td th:text="${recipe.id}">123</td>
         <td th:text="${recipe.description}">hola</td>
-        <td th:text="${recipe.directions}">hola</td>
-        <td th:text="${recipe.url}">mundo</td>
     </tr>
     </tbody>
 </table>
