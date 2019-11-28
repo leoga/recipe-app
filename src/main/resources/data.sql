@@ -11,3 +11,5 @@ INSERT INTO unit_of_measure (uom) VALUES ('Entire');
 INSERT INTO unit_of_measure (uom) VALUES ('Tbsp');
 INSERT INTO unit_of_measure (uom) VALUES ('Dash');
 INSERT INTO unit_of_measure (uom) VALUES ('Pounds');
+INSERT INTO unit_of_measure (uom) VALUES ('Each');
+INSERT INTO unit_of_measure (uom) VALUES ('Pint');
